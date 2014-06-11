@@ -1,6 +1,7 @@
-5443-Spatial-Databases
-======================
-#### i have tryed Below Command and i have made some modificatio in this command executes correctly and imports file into the database.
+ ### Assignment 3
+  
+  ### My OGR command
+
 
 ``````
 ogr2ogr -f "MySQL" MySQL:"snaveen,host=localhost,user=snaveen,password=Naveen@123,port=3036" TM_WORLD_BORDERS-0.3.shp -nln World_Borders -update -overwrite -lco engine=MYISAM
@@ -28,5 +29,3 @@ CREATE TABLE IF NOT EXISTS `world_borders` (
   UNIQUE KEY `OGR_FID` (`OGR_FID`),
   SPATIAL KEY `SHAPE` (`SHAPE`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=247 ;
-
---
