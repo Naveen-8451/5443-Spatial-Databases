@@ -8,7 +8,7 @@ Assignment2
 
 `````
 In this we are just checking the weather we are connect to the database and reterving the data from the database
-below code displays and connects to the database
+below code displays and imports connects to the database
 `````
 <?php
 $con=mysqli_connect("localhost","snaveen","Naveen@123","snaveen");
