@@ -34,3 +34,16 @@ while($row = mysqli_fetch_array($result)) {
 echo "</table>";
 mysqli_close($con);
 ?>
+
+````
+Output
+````
+
+name	yr	dest
+pioneer 5	1960	sun
+Mariner	1974	Mercury
+Messenger	2008	Mercury
+Zond	1964	Venus
+Viking	1976	Mars
+cassini	2000	Jupiter
+Galileo	1995	Jupiter
