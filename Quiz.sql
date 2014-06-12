@@ -81,3 +81,5 @@ select name from planets where type='Gas';
 # 12 #################################################
 select name from planets where NumMoons>=1;
 
+# 13 #################################################
+select planets.Name,probes.name from planets LEFT OUTER JOIN probes on (planets.Name=probes.dest);
