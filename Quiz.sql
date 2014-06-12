@@ -71,9 +71,9 @@ select probes.name from probes join planets on probes.dest=planets.name where Nu
 select probes.name from probes join planets on probes.dest=planets.name where Type='Rocky';
 
 # 9 #################################################
-SELECT Probes.name FROM Probes WHERE dest IN (SELECT Planets.Name FROM Planets WHERE LengthOfYear <= ALL(SELECT LengthOfYear FROM Planets));
+SELECT probes.name FROM probes WHERE dest IN (SELECT planets.Name FROM planets WHERE LengthOfYear <= ALL(SELECT LengthOfYear FROM planets));
 # 10 #################################################
-SELECT Name FROM Planets WHERE LengthOfYear = (SELECT MAX(LengthOfYear) FROM Planets);
+SELECT Name FROM planets WHERE LengthOfYear = (SELECT MAX(LengthOfYear) FROM planets);
 
 # 11 #################################################
 select name from planets where type='Gas';
