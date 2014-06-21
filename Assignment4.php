@@ -5,7 +5,7 @@
 
 <?php
 //Establish connection to database.
-$db = new mysqli('localhost', '5443', '5443', '5443_Military');
+$db = new mysqli('localhost', 'snaveen', 'Naveen@123', 'snaveen');
 
 //If no connection, then kill page
 if($db->connect_errno > 0){
