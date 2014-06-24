@@ -1,6 +1,6 @@
- ### Assignment 3
+###Assignment 2
   
-  ### My OGR command
+### My OGR command
 
 
 ``````
@@ -9,7 +9,7 @@ ogr2ogr -f "MySQL" MySQL:"snaveen,host=localhost,user=snaveen,password=Naveen@12
 ``````
 
 ``````
-Table structure for table `world_borders`
+#Table structure for table `world_borders`
 ``````
 
 CREATE TABLE IF NOT EXISTS `world_borders` (
